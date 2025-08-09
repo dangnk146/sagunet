@@ -18,7 +18,7 @@ from albumentations.pytorch import ToTensorV2
 from torchvision.ops import nms, box_iou
 
 # ==============================================================================
-# 1. KIẾN TRÚC ATTENTION U-NET
+# 1. KIẾN TRÚC ATTENTION SAG U-NET
 # ==============================================================================
 class ConvBlock(nn.Module):
     def __init__(self, in_channels, out_channels):
